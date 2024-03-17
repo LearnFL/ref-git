@@ -11,8 +11,8 @@
 8) [🔎 Debug changes](#Debug-changes-)
 9) [🚨 Undo changes](#Undo-changes-)
 10) [🔐 Merge](#Merging-)
-11) [🖇️ Rebase](#rebase-)
-12) [🌴 Branch](#branch-)
+11) [🖇️ Rebase](#Rebase-)
+12) [🌴 Branch](#Branch-)
 13) [🚦 Public to private Fork](#Public-to-private-Fork-)
 
 
@@ -339,7 +339,7 @@ Using the git revert command by typing git revert -m 1 HEAD@{0} into the termina
 The custom message provided by the system should suffice so we can advance by typing Esc + :wq and then hit Enter, which creates the new commit that reverses these changes.
 ```
 
-### Rebase 🖇️ 
+### Rebase 🖇️
 Moves or combines a sequence of commits to a new base commit. <br>
 In Git, rebasing means integrating the changes made on one branch into another, similar to merging. But instead of maintaining the commit history of the two branches, rebasing rewrites the commit history to produce a cleaner, linear progression of changes.
 So rebasing is appending all the commits of one branch to the commits of another one. This makes the commit history of the principal branch a single, clean line of commits but may be difficult to debug if conflicts occur.

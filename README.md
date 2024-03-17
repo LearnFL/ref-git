@@ -4,7 +4,7 @@
 1) [👨‍💻 Editer](#editer-)
 2) [📡 Initialize](#initialization-)
 3) [🚀 Push](#Pushing-to-remote-)
-4) [⚓️ Stage](#staging-)
+4) [⚓️ Stage](#Staging-)
 5) [📲 Stash](#stash-)
 6) [⚽️ Clone, fetch, pull](#clone-fetch-pull-)
 7) [🎣 Cherry-pick](#Cherry-pick-)

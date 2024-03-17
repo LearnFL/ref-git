@@ -269,9 +269,11 @@ This undoes any changes to the commit history and the staging area by resetting 
 > git reset --hard {commit_hash} (Reset the commit history, working tree and staging area (hard reset)🔴) <br>
 
 This approach resets any changes made to the commit history, staging areas and the working directory. This is done by resetting the HEAD pointer to the specified commit.
-⚠️Warning: This could impact the work of other colleagues if you’re working on the same repository, so only use this if you know exactly what you’re doing, otherwise consider safer alternatives.
+⚠️Warning: This could impact the work of other colleagues if you’re working on the same repository, so only use this if you know exactly what you’re doing, otherwise consider safer alternatives. <br>
 
-	
+[Article by Stephen David-Williams on medium](https://medium.com/gitconnected/git-commands-i-wish-i-knew-earlier-as-a-developer-a5f9f47d5644)
+<br>
+ 
 > git reset HEAD^ (Uncommit and unstaged but keep my file tree) <br>
 > git reset --hard HEAD^ (Reset changes to previous commit) <br>
 > git push -f
@@ -409,4 +411,4 @@ $ git push origin master
 ```
 
 ### [Git Cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
-### [Git useful commands](https://levelup.gitconnected.com/git-commands-i-wish-i-knew-earlier-as-a-developer-a5f9f47d5644)
+### [Git useful commands](https://medium.com/gitconnected/git-commands-i-wish-i-knew-earlier-as-a-developer-a5f9f47d5644)

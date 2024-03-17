@@ -6,7 +6,7 @@
 3) [🚀 Push](#Pushing-to-remote-)
 4) [⚓️ Stage](#Stage-)
 5) [📲 Stash](#stash-)
-6) [⚽️ Clone-fetch-pull](#Clone-fetch-pull-)
+6) [⚽️ Clone-fetch-pull](#-Clone-fetch-pull-)
 7) [🎣 Cherry-pick](#Cherry-pick-)
 8) [🔎 Debug changes](#Debug-changes-)
 9) [🚨 Undo changes](#Undo-changes-)

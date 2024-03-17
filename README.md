@@ -4,14 +4,14 @@
 1) [👨‍💻 Editer](#editer-)
 2) [📡 Initialize](#initialization-)
 3) [🚀 Push](#Pushing-to-remote-)
-4) [⚓️ Stage](#Stage-)
+4) [📸 Stage](#Stage-)
 5) [📲 Stash](#stash-)
-6) [⚽️ Clone-fetch-pull](#-Clone-fetch-pull-)
+6) [🏈 Clone-fetch-pull](#clone-fetch-pull-)
 7) [🎣 Cherry-pick](#Cherry-pick-)
 8) [🔎 Debug changes](#Debug-changes-)
 9) [🚨 Undo changes](#Undo-changes-)
 10) [🔐 Merge](#Merging-)
-11) [🖇️ Rebase](#Rebase-)
+11) [📀 Rebase](#Rebase-)
 12) [🌴 Branch](#Branch-)
 13) [🚦 Public to private Fork](#Public-to-private-Fork-)
 
@@ -63,7 +63,7 @@ without saving (and commit will be aborted)
 👉 After renaming local branch: <br>
 > git push origin new_branch_name:master (now changes will go to master branch but your local branch name is new_branch_name)
 
-### Stage ⚓️
+### Stage 📸
 
 > git add [file name] (Stage) <br>
 > git add {file-name-1} {file-name-2} (stage multoiple files) <br>
@@ -110,7 +110,7 @@ This is used mainly when you have changes that are staged, modified or even untr
 > git stash drop {stash-id} <br>
 > git stash pop (apply and delete) <br>
 
-### Clone fetch pull ⚽️
+### Clone fetch pull 🏈
 
 ➡️ `FETCH` from remote branch WITHOUT merging with local branch: <br>
 
@@ -339,7 +339,7 @@ Using the git revert command by typing git revert -m 1 HEAD@{0} into the termina
 The custom message provided by the system should suffice so we can advance by typing Esc + :wq and then hit Enter, which creates the new commit that reverses these changes.
 ```
 
-### Rebase 🖇️
+### Rebase 📀
 Moves or combines a sequence of commits to a new base commit. <br>
 In Git, rebasing means integrating the changes made on one branch into another, similar to merging. But instead of maintaining the commit history of the two branches, rebasing rewrites the commit history to produce a cleaner, linear progression of changes.
 So rebasing is appending all the commits of one branch to the commits of another one. This makes the commit history of the principal branch a single, clean line of commits but may be difficult to debug if conflicts occur.

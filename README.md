@@ -4,7 +4,7 @@
 1) [👨‍💻 Editer](#editer-)
 2) [📡 Initialize](#initialization-)
 3) [🚀 Push](#Pushing-to-remote-)
-4) [⚓️ Stage](#Staging-)
+4) [⚓️ Stage](#Stage-)
 5) [📲 Stash](#stash-)
 6) [⚽️ Clone, fetch, pull](#clone-fetch-pull-)
 7) [🎣 Cherry-pick](#Cherry-pick-)
@@ -63,7 +63,7 @@ without saving (and commit will be aborted)
 👉 After renaming local branch: <br>
 > git push origin new_branch_name:master (now changes will go to master branch but your local branch name is new_branch_name)
 
-### Staging ⚓️
+### Stage ⚓️
 
 > git add [file name] (Stage) <br>
 > git add {file-name-1} {file-name-2} (stage multoiple files) <br>
